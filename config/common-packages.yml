@@ -5,12 +5,12 @@ install:
   - sddm-themes
 
 # launcher
-  - wofi
+  - fuzzel
 
 # environment
   - xorg-x11-server-Xwayland
   - polkit
-  - lxpolkit
+  - polkit-gnome
   - xdg-user-dirs
   - dbus-tools
   - dbus-daemon
@@ -24,6 +24,7 @@ install:
   - vulkan-tools
   - google-noto-emoji-fonts
   - gnome-disk-utility
+
   
 # sound
   - wireplumber
@@ -54,8 +55,8 @@ install:
 # display
   - wlr-randr
   - wlsunset
-  - grimshot
-  - light
+  - shotman
+  - brightnessctl
   - swaylock
   - swayidle
   - kanshi
